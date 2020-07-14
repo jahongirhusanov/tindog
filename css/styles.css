@@ -6,19 +6,32 @@ body {
 
 h1 {
   font-family: 'Montserrat-Black', sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
 
 }
 
+h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
 
+}
+
+p {
+  color: #8f8f8f;
+}
 /* ================= CLASS ================= */
 .container-fluid {
   padding: 3% 15%;
 }
 
-.dog {
-  transform: rotate(20deg);
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+  height: 60%;
+  overflow: hidden;
+  position: relative;
 }
 
 .navbar-brand{
@@ -39,8 +52,32 @@ h1 {
   font-size: 1.2rem;
   font-family: 'Montserrat-light';
 }
+
+/* Download button */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+
+
+
+
+
 /* ================= ID ================= */
 #title {
   background-color: #ff4c68;
   color: #fff;
+  height: 600px;
+}
+
+
+#features {
+  height: 600px;
+  text-align: center;
+}
+
+.feature-i {
+  color: #ef8172;
+  padding-right: 0.75rem;
+  size: 20rem;
 }
